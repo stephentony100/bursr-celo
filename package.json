@@ -1,0 +1,19 @@
+{
+  "name": "bursr-celo",
+  "private": true,
+  "description": "Bursr on Celo: an AI finance team for African small businesses, built for the Celo \"Agents Open for Business\" hackathon.",
+  "license": "MIT",
+  "packageManager": "pnpm@12.16.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}
