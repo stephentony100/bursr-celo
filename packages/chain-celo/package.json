@@ -1,0 +1,22 @@
+{
+  "name": "@bursr/chain-celo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Celo mainnet for Bursr: the tagged transaction client, tokens, Textile FX.",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "show-tagged-tx": "tsx scripts/show-tagged-tx.ts"
+  },
+  "dependencies": {
+    "@celo/attribution-tags": "0.5.0",
+    "viem": "^2.58.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}
