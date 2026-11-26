@@ -9,7 +9,8 @@
   "scripts": {
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "show-tagged-tx": "tsx scripts/show-tagged-tx.ts"
+    "show-tagged-tx": "tsx scripts/show-tagged-tx.ts",
+    "new-agent-key": "tsx scripts/new-agent-key.ts"
   },
   "dependencies": {
     "@celo/attribution-tags": "0.5.0",
